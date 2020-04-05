@@ -7,15 +7,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <title>
-    About
+    blog Test
   </title>
   <meta
     name="description"
-    content="kyun dev bloh"
+    content="Will 접두사가 붙은 메소드는 어떤 작업을 작동하기 전에 실행되는 메서드"
   />
   <link
     rel="canonical"
-    href="http://localhost:4000/about.html"
+    href="http://localhost:4000/2020/04/05/%EB%B8%94%EB%A1%9C%EA%B7%B8-%ED%85%8C%EC%8A%A4%ED%8A%B8/"
   />
   <link
     rel="alternate"
@@ -125,29 +125,210 @@
 
 </header>
 
-    <div class='o-wrapper'>
+    
 
+
+
+<div class='o-wrapper'>
   <div class='o-grid'>
     <div class='o-grid__col'>
-      <article class='c-post'>
-        <h1 class='c-post__title u-text-center'>About</h1>
+      <article class='c-post' itemscope itemtype='http://schema.org/BlogPosting'>
 
-        <div class='c-content'>
+        <h1 class='c-post__title u-text-center'>blog Test</h1>
+
+        <time class='c-post__date' datetime='2020-04-05T00:00:00+09:00' itemprop='datePublished'>05 Apr 2020</time>
+
+        <div class='c-content' itemprop='articleBody'>
           
-  <img src='/images/pages/about.jpeg' class='c-post__image' alt='About'>
 
+          <p><code class="highlighter-rouge">Will</code> 접두사가 붙은 메소드는 어떤 작업을 작동하기 전에 실행되는 메서드</p>
 
-          <p>You love Minimalism, and you also love writing, Type is designed for you. Type focus on showing your content in a clean and simple way, focus on images, typography, and white space.</p>
+<p><code class="highlighter-rouge">Did</code> 접두사가 붙은 메서드는 어떤 작업을 작동 한 후에 실행되는 메서드</p>
 
-<p>This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at <a href="http://jekyllrb.com/">jekyllrb.com</a></p>
+<p><code class="highlighter-rouge">Mount</code> 는 <code class="highlighter-rouge">DOM</code> 이 생성되고 웹 브라우저상에 나타나는 것</p>
 
-<p>Lorem ipsum dolor sit amet, vix ut case porro facilisis, alia possit neglegentur vis te. Has cu eirmod abhorreant, vel civibus efficiantur cu. Eu summo elitr vix, iusto putant maluisset per ut, ne etiam vivendum adipisci vel. Vis omnis tempor accusam ei, justo perpetua liberavisse cu qui. Saperet aliquando adipiscing ius ne, ne facer euripidis est. Pro mundi nostrum suavitate et.</p>
+<p><img src="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/32bbcdb7-acb2-4534-91bd-a4e121951171/Untitled.png" alt="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/32bbcdb7-acb2-4534-91bd-a4e121951171/Untitled.png" /></p>
+
+<h1 id="mount-마운트"><code class="highlighter-rouge">Mount</code> 마운트</h1>
+
+<ul>
+  <li><code class="highlighter-rouge">constructor</code> : 컴포넌트를 새로 만들 때마다 호출되는 클래스 생성자 메서드</li>
+  <li><code class="highlighter-rouge">getDerivedStateFromrops</code> : <code class="highlighter-rouge">props</code> 에 있는 값을 <code class="highlighter-rouge">state</code> 에 넣을 때 사용하는 메서드</li>
+  <li><code class="highlighter-rouge">redner</code> : 우리가 준비한 UI를 렌더링 하는 메서드</li>
+  <li><code class="highlighter-rouge">componentDidMount</code> : 컴포넌트가 웹 브라우저상에 타나난 후 호출하는 메서드</li>
+</ul>
+
+<h1 id="update-업데이트"><code class="highlighter-rouge">Update</code> 업데이트</h1>
+
+<p>컴포넌트는 다음 네 가지 경우에 업데이트된다.</p>
+
+<ol>
+  <li><code class="highlighter-rouge">props</code> 가 바뀔 때</li>
+  <li><code class="highlighter-rouge">state</code> 가 바뀔 때</li>
+  <li>부모 컴포넌트가 리렌더링될 때</li>
+  <li><code class="highlighter-rouge">this.forceUpdate</code> 로 강제로 렌더링을 트리거할 때</li>
+</ol>
+
+<p>이 때 실행되는 메서드는</p>
+
+<ul>
+  <li><code class="highlighter-rouge">getDerivedStateFromProps</code> : <code class="highlighter-rouge">Props</code>의 변화에 따라 <code class="highlighter-rouge">state</code> 값에도 변화를 주고 싶을 때 사용</li>
+  <li><code class="highlighter-rouge">shouldComponentUpdate</code> : 컴포넌트를 리렌더링 할지 말지 결정하는 메서드 → <code class="highlighter-rouge">return true or false</code>, <code class="highlighter-rouge">false</code> 이면 작업을 중단 ⇒ <code class="highlighter-rouge">this.forceUpdate()</code> 를 실행하면 이 단계를 건너뛴다.</li>
+  <li><code class="highlighter-rouge">render</code> : 컴포넌트를 리렌더링</li>
+  <li><code class="highlighter-rouge">getSnapshotBeforeUpdate</code> : 컴포넌트 변화를 <code class="highlighter-rouge">DOM</code> 에 반영하기 바로 직전에 호출하는 메서드</li>
+  <li><code class="highlighter-rouge">componentDidUpdate</code> : 컴포넌트의 업데이트 작업이 끝난 후 호출되는 메서드</li>
+</ul>
+
+<h1 id="unmount-언마운트"><code class="highlighter-rouge">unmount</code> 언마운트</h1>
+
+<p>컴포넌트를 <code class="highlighter-rouge">DOM</code> 에서 제거하는 것</p>
+
+<ul>
+  <li><code class="highlighter-rouge">componentWillUnmount</code> : 컴포넌트가 웹 브라우저상에서 사라지기 전에 호출하는 메서드</li>
+</ul>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  import React from 'react';
+  import LifeCycle from './LifeCycle';
+
+  function getRandomcolor(params) {
+  return '#' + Math.floor(Math.random() \* 16777215).toString(16);
+  }
+
+  class App extends React.Component {
+  state = {
+  color: '#000000'
+  }
+  handleClick = () =&gt; {
+  this.setState({
+  color: getRandomcolor()
+  })
+  }
+
+      render() {
+        return (
+          &lt;&gt;
+            &lt;LifeCycle color={this.state.color} /&gt;
+            &lt;button onClick={this.handleClick}&gt;랜덤&lt;/button&gt;
+          &lt;/&gt;
+        );
+      }
+
+  }
+
+  export default App;
+</code></pre></div></div>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  import React, { Component } from 'react';
+
+  export default class LifeCycle extends Component {
+  state = {
+  number: 0,
+  color: null
+  }
+
+      myRef = null;
+
+      constructor(props) {
+        super(props);
+        console.log('constructor');
+      }
+
+      static getDerivedStateFromProps(nextProps, prevState) {
+        console.log('getDerivedStateFromProps');
+        if (nextProps.color !== prevState.color) {
+          return { color: nextProps.color }
+        }
+        return null
+      }
+
+      componentDidMount() {
+        console.log('componentDidMount');
+      }
+
+      shouldComponentUpdate(nextProps, nextState) {
+        console.log('shouldComponentUpdate', nextProps, nextState);
+        return nextState.number &amp; 10 !== 4;
+      }
+
+      componentWillUnmount() {
+        console.log('componentWillUnmount');
+      }
+
+      handleClick = () =&gt; {
+        this.setState({
+          number: this.state.number + 1
+        })
+      }
+
+      getSnapshotBeforeUpdate(prevProps, prevState) {
+        console.log('getSnapshotBeforeUpdate');
+        if (prevProps.color !== this.props.color) {
+          return this.myRef.style.color;
+        }
+        return null
+      }
+
+      componentDidUpdate(prevProps, prevState, snapshot) {
+        console.log('componentDidUpdate', prevProps, prevState);
+        if (snapshot) {
+          console.log('업데이트되지 직전 색상', snapshot);
+        }
+      }
+      render() {
+        console.log('render');
+        const style = {
+          color: this.props.color
+        }
+
+        return (
+          &lt;div&gt;
+            &lt;h1 style={style} ref={ref =&gt; this.myRef = ref}&gt;{this.state.number}&lt;/h1&gt;
+            &lt;p&gt;color : {this.state.color}&lt;/p&gt;
+            &lt;button onClick={this.handleClick}&gt;더하기&lt;/button&gt;
+          &lt;/div&gt;
+        )
+      }
+
+  }
+</code></pre></div></div>
 
         </div>
+
+        <div class='c-tags'>
+          
+            <a href='/tag/frontpage'>frontpage</a>
+          
+            <a href='/tag/jekyll'>jekyll</a>
+          
+            <a href='/tag/blog'>blog</a>
+          
+        </div>
+
+        <hr>
+
+        <section class='disqus'>
+  <div id='disqus_thread'></div>
+  <script>
+    var disqus_config = function () {
+      this.page.url = 'http://localhost:4000/2020/04/05/%EB%B8%94%EB%A1%9C%EA%B7%B8-%ED%85%8C%EC%8A%A4%ED%8A%B8/';
+    };
+
+    (function() {
+      var d = document, s = d.createElement('script');
+
+      // Change `aspirethemes-demos` with your Disqus shortcode
+      s.src = '//aspirethemes-demos.disqus.com/embed.js';
+
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+  </script>
+<noscript>Please enable JavaScript to view the <a href='https://disqus.com/?ref_noscript' rel='nofollow'>comments powered by Disqus.</a></noscript>
+</section>
+
       </article>
     </div>
   </div>
-
 </div>
 
     <footer class='c-footer'>
