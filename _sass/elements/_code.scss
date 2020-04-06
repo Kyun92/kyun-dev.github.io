@@ -20,4 +20,10 @@ pre {
 }
 
 li code,
-p code { padding: quarter($base-spacing-unit) half($base-spacing-unit); }
+p code {
+  padding: quarter($base-spacing-unit) half($base-spacing-unit);
+  color: #c7254e;
+  // background-color: #f9f2f4;
+  border-radius: 1px;
+  // border: 1px #f8dae2 solid;
+}

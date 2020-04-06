@@ -1,10 +1,9 @@
-I"�<p><code class="highlighter-rouge">Will</code> 접두사가 붙은 메소드는 어떤 작업을 작동하기 전에 실행되는 메서드</p>
+I"
+<p><code class="highlighter-rouge">Will</code> 접두사가 붙은 메소드는 어떤 작업을 작동하기 전에 실행되는 메서드
+<code class="highlighter-rouge">Did</code> 접두사가 붙은 메서드는 어떤 작업을 작동 한 후에 실행되는 메서드
+<code class="highlighter-rouge">Mount</code> 는 <code class="highlighter-rouge">DOM</code> 이 생성되고 웹 브라우저상에 나타나는 것</p>
 
-<p><code class="highlighter-rouge">Did</code> 접두사가 붙은 메서드는 어떤 작업을 작동 한 후에 실행되는 메서드</p>
-
-<p><code class="highlighter-rouge">Mount</code> 는 <code class="highlighter-rouge">DOM</code> 이 생성되고 웹 브라우저상에 나타나는 것</p>
-
-<p><img src="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/32bbcdb7-acb2-4534-91bd-a4e121951171/Untitled.png" alt="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/32bbcdb7-acb2-4534-91bd-a4e121951171/Untitled.png" /></p>
+<p><img src="https://user-images.githubusercontent.com/35090976/78525208-7a4f0e80-7811-11ea-8bc3-7dad0e784ffb.png" alt="Untitled" /></p>
 
 <h1 id="mount-마운트"><code class="highlighter-rouge">Mount</code> 마운트</h1>
 

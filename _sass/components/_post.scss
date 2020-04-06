@@ -4,7 +4,7 @@
 
 .c-post {
   margin: 0 auto;
-  max-width: 740px;
+  max-width: 940px;
 
   &__title {
     font-size: double($font-size-tiny);
@@ -28,7 +28,7 @@
 
     &:after {
       position: absolute;
-      content: '';
+      content: "";
       top: 0;
       left: 50%;
       height: 1px;

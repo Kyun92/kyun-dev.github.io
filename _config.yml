@@ -8,7 +8,7 @@
 # Site settings
 title: Kyun
 email: "lsk9105@gmail.com"
-description: "kyun dev bloh"
+description: "kyun dev blog"
 baseurl: "" # The subpath of your site, e.g. /blog
 url: "https://kyun92.github.io" # The base hostname & protocol for your site
 # twitter: ""

@@ -5,12 +5,10 @@ tags: [frontpage, jekyll, blog]
 ---
 
 `Will` 접두사가 붙은 메소드는 어떤 작업을 작동하기 전에 실행되는 메서드
-
 `Did` 접두사가 붙은 메서드는 어떤 작업을 작동 한 후에 실행되는 메서드
-
 `Mount` 는 `DOM` 이 생성되고 웹 브라우저상에 나타나는 것
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/32bbcdb7-acb2-4534-91bd-a4e121951171/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/32bbcdb7-acb2-4534-91bd-a4e121951171/Untitled.png)
+![Untitled](https://user-images.githubusercontent.com/35090976/78525208-7a4f0e80-7811-11ea-8bc3-7dad0e784ffb.png)
 
 # `Mount` 마운트
 
