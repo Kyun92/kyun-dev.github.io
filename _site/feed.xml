@@ -5,8 +5,8 @@
     <description>kyun dev blog</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 06 Apr 2020 21:22:30 +0900</pubDate>
-    <lastBuildDate>Mon, 06 Apr 2020 21:22:30 +0900</lastBuildDate>
+    <pubDate>Mon, 06 Apr 2020 21:42:50 +0900</pubDate>
+    <lastBuildDate>Mon, 06 Apr 2020 21:42:50 +0900</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
 
     
@@ -305,6 +305,8 @@
 
 &lt;h2 id=&quot;임승균-seung-kyun-lim&quot;&gt;임승균 Seung Kyun Lim&lt;/h2&gt;
 
+&lt;h3 id=&quot;front-end-developer&quot;&gt;Front End Developer&lt;/h3&gt;
+
 &lt;ul&gt;
   &lt;li&gt;1992.09.23&lt;/li&gt;
   &lt;li&gt;Email: &lt;a href=&quot;mailto:lsk9105@gmail.com&quot;&gt;lsk9105@gmail.com&lt;/a&gt;&lt;/li&gt;
@@ -319,6 +321,8 @@
 &lt;p&gt;책과 글 쓰기, 맥주, 전자기기, 한 주제를 가지고 사람들과 이야기를 하는 걸 좋아합니다.&lt;/p&gt;
 
 &lt;p&gt;남에게 피해주는 행동을 싫어합니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.notion.so/lukalim/Seung-Kyun-Lim-6e3ae766154c4065962c6f8bf8aa9e6f&quot;&gt;more&lt;/a&gt;&lt;/p&gt;
 </description>
             <link>http://localhost:4000/about.html</link>
           </item>
