@@ -5,8 +5,8 @@
     <description>kyun dev blog</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 06 Apr 2020 20:32:55 +0900</pubDate>
-    <lastBuildDate>Mon, 06 Apr 2020 20:32:55 +0900</lastBuildDate>
+    <pubDate>Mon, 06 Apr 2020 21:22:30 +0900</pubDate>
+    <lastBuildDate>Mon, 06 Apr 2020 21:22:30 +0900</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
 
     
@@ -222,14 +222,7 @@
 
 &lt;p&gt;유료강의는 안들어봐서 모르겠는데 커뮤니티 사이에서는 평이 좋은듯? 나도 지금 풀코스 하나 사서 들을까 고민중&lt;/p&gt;
 
-&lt;table&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;[Build a Recipe App With React&lt;/td&gt;
-      &lt;td&gt;React Tutorial For Beginners](https://www.youtube.com/watch?v=U9T6YkEDkMo)&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=U9T6YkEDkMo&quot;&gt;Build a Recipe App With - React React Tutorial For Beginners&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;자막 없긴한데 개념 읽고 그냥 저 사람이 치는대로 쭉 따라하다보면 괜차늠&lt;/p&gt;
 
