@@ -34,12 +34,32 @@
 
   &__date {
     display: block;
-    color: $color-gray;
+    color: $color-brand;
     direction: ltr;
     font-size: $font-size-tiny;
     font-weight: $font-weight-bold;
     line-height: $line-height-small;
     text-transform: uppercase;
+  }
+  &__tags {
+    span {
+      display: inline-block;
+      padding: quarter($base-spacing-unit) $base-spacing-unit;
+      margin: 0 half($base-spacing-unit) quarter($base-spacing-unit) 0;
+
+      font-size: $font-size-tiny;
+      font-family: $font-base;
+      line-height: $line-height-medium;
+      color: #c7254e;
+
+      background-color: $bg-color-gray;
+      transition: $global-transition;
+
+      @include attention() {
+        text-decoration: none;
+        background-color: $bg-color-gray;
+      }
+    }
   }
 
   &:hover {
