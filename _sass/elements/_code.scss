@@ -17,6 +17,10 @@ pre {
   white-space: pre-wrap;
   word-wrap: break-word;
   word-break: break-all;
+
+  @include mq($from: mobile, $until: tablet) {
+    padding: 0;
+  }
 }
 
 li code,

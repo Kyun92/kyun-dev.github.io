@@ -8,8 +8,13 @@ body {
   font-family: $font-base;
   line-height: $line-height-base;
 
+  @include mq($from: mobile, $until: tablet) {
+    font-size: $font-size-medium;
+    line-height: $line-height-medium;
+  }
+
   -webkit-font-smoothing: antialiased;
-   -moz-osx-font-smoothing: grayscale;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 *::selection {

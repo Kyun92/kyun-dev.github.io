@@ -2,21 +2,27 @@
 layout: default
 ---
 
-<div class='o-wrapper'>
-
-  <div class='o-grid'>
-    <div class='o-grid__col'>
+<!-- <div class="o-wrapper">
+  <div class="o-grid">
+    <div class="o-grid__col">
       <h4>{{ page.tag }}</h4>
     </div>
   </div>
 
-  <div class='o-grid'>
-    {% for post in page.posts %}
-      {% include post-card.liquid %}
-    {% endfor %}
+  <div class="o-grid">
+    {% for post in page.posts %} {% include post-card.liquid %} {% endfor %}
   </div>
 
-  <div class='o-grid'>
+  <div class="o-grid">
     {% include pagination.html %}
+  </div>
+</div> -->
+
+<div class="o-wrapper">
+  <div class="o-grid">
+    <div class="o-grid__col" style="width: 100%;">
+      <h1>Tags</h1>
+      {% include tags.html %}
+    </div>
   </div>
 </div>
