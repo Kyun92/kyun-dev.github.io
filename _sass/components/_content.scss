@@ -6,6 +6,7 @@
   a:not(.c-btn) {
     text-decoration: underline;
     text-decoration-skip: ink;
+    color: $color-brand;
 
     @include attention() {
       color: $color-brand;
